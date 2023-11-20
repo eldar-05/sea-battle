@@ -16,7 +16,40 @@ public class Main
         }
         boolean startTheGameAgain = true;
         while(startTheGameAgain){
-           
+            try {
+                clearConsole();
+                Thread.sleep(1000);
+                System.out.println("| %%%%    |");
+                System.out.println("|     %%  |");
+                System.out.println("|   %%%   |");
+                System.out.println("|     %%  |");
+                System.out.println("| %%%%    |");
+                Thread.sleep(1000);
+                clearConsole();
+                System.out.println("|  %%%%   |");
+                System.out.println("| %%  %%  |");
+                System.out.println("|    %%   |");
+                System.out.println("|   %%    |");
+                System.out.println("| %%%%%%  |");
+                Thread.sleep(1000);
+                clearConsole();
+                System.out.println("|    %%    |");
+                System.out.println("|  %%%%    |");
+                System.out.println("|    %%    |");
+                System.out.println("|    %%    |");
+                System.out.println("|  %%%%%%  |");
+                Thread.sleep(1000);
+                clearConsole();
+                System.out.println(" %%%%%%   %%%%    %% ");
+                System.out.println(" %%      %%  %%   %% ");
+                System.out.println(" %%  %%  %%  %%   %% ");
+                System.out.println(" %%   %  %%  %%      ");
+                System.out.println(" %%%%%%   %%%%    %% ");
+                Thread.sleep(2000);
+                clearConsole();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             for(int i = 0; i < 8; i++){
                 for(int j = 0; j < 8; j++){
                     battleField[i][j] = " #";
