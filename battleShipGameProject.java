@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
-public class Main
+public class battleShipGameProject
 {
     public static void main(String[] args){
         Random random = new Random();
