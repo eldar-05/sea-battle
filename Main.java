@@ -172,6 +172,9 @@ public class Main
                     int wannaPlay = 2;
                     startGame = false;
                     clearConsole();
+                   
+                    System.out.println("Congrats you win! " + userName + "!");
+                    System.out.println("It takes " + shootsCounter + " shoots to win");
                     System.out.println("Do you wanna play again? (1. - yes || 0. - no)");
                     wannaPlay = scanner.nextInt();
                     if(wannaPlay == 0){
