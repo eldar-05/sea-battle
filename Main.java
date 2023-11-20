@@ -11,6 +11,9 @@ public class Main
         int shipsLocation[][] = new int[9][9];
         System.out.print("Write your user name... ");
         String userName = scanner.nextLine();
+        if (userName.equals("admin")){
+            showCordinates = true;
+        }
         boolean startTheGameAgain = true;
         while(startTheGameAgain){
            
