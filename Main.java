@@ -114,6 +114,17 @@ public class Main
                     }
                     System.out.println();
                 }
+                if(showCordinates){
+                    System.out.println();
+                    System.out.println(" + 1 2 3 4 5 6 7");
+                    for(int i = 1; i < 8; i++){
+                        System.out.print(" " + i);
+                        for(int j = 1; j < 8; j++){
+                            System.out.print(" " + shipsLocation[i][j]);
+                        }
+                        System.out.println();
+                    }
+                }
                 System.out.println("Write cordinates(first vertical!)... ");
                 int usersShootXcordinate = scanner.nextInt();
                 int usersShootYcordinate = scanner.nextInt();
